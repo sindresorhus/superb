@@ -1,0 +1,45 @@
+{
+  "name": "superb",
+  "version": "0.0.0",
+  "description": "Get superb like words",
+  "license": "MIT",
+  "repository": "sindresorhus/superb",
+  "bin": {
+    "superb": "cli.js"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "words.json"
+  ],
+  "keywords": [
+    "cli",
+    "bin",
+    "superb",
+    "awesome",
+    "word",
+    "words",
+    "list",
+    "array",
+    "random",
+    "rand"
+  ],
+  "dependencies": {
+    "minimist": "^0.2.0",
+    "unique-random": "^0.1.1"
+  },
+  "devDependencies": {
+    "ava": "0.0.3"
+  }
+}
