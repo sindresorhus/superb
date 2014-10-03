@@ -36,10 +36,10 @@
     "rand"
   ],
   "dependencies": {
-    "minimist": "^0.2.0",
-    "unique-random": "^0.1.1"
+    "minimist": "^1.1.0",
+    "unique-random": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.3"
+    "ava": "0.0.4"
   }
 }
