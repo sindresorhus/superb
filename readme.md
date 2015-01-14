@@ -2,7 +2,7 @@
 
 > Get superb like words
 
-Currently 100 words.
+Currently ~100 words.
 
 The word list itself is just a [JSON file](words.json) and can be used wherever.
 
@@ -34,11 +34,15 @@ superb.words;
 
 ### superb()
 
-Returns a random [superb like word](words.json).
+Type: `string`
+
+Random [superb like word](words.json).
 
 ### superb.words
 
-Array with all the words.
+Type: `array`
+
+All the words.
 
 
 ## CLI
@@ -50,9 +54,17 @@ $ npm install --global superb
 ```
 $ superb --help
 
-  Example
+  Examples
     $ superb
     legendary
+
+    $ superb --all
+    ace
+    amazing
+    ...
+
+  Options
+    --all  Get all the words instead of a random word
 ```
 
 

@@ -3,12 +3,20 @@
 var meow = require('meow');
 var superb = require('./');
 
-meow({
+var cli = meow({
 	help: [
-		'Example',
+		'Examples',
 		'  $ superb',
-		'  legendary'
+		'  legendary',
+		'',
+		'  $ superb --all',
+		'  ace',
+		'  amazing',
+		'  ...',
+		'',
+		'Options',
+		'  --all  Get all the words instead of a random word'
 	].join('\n')
 });
 
-console.log(superb());
+console.log(cli.flags.all ? superb.words.join('\n') : superb());
