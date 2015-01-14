@@ -1,27 +1,14 @@
 #!/usr/bin/env node
 'use strict';
-var argv = require('minimist')(process.argv.slice(2));
-var pkg = require('./package.json');
+var meow = require('meow');
 var superb = require('./');
 
-function help() {
-	console.log([
-		pkg.description,
-		'',
+meow({
+	help: [
 		'Example',
 		'  $ superb',
 		'  legendary'
-	].join('\n'));
-}
-
-if (argv.help) {
-	help();
-	return;
-}
-
-if (argv.version) {
-	console.log(pkg.version);
-	return;
-}
+	].join('\n')
+});
 
 console.log(superb());

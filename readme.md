@@ -9,7 +9,7 @@ The word list itself is just a [JSON file](words.json) and can be used wherever.
 
 ## Install
 
-```sh
+```
 $ npm install --save superb
 ```
 
@@ -43,16 +43,16 @@ Array with all the words.
 
 ## CLI
 
-```sh
+```
 $ npm install --global superb
 ```
 
-```sh
+```
 $ superb --help
 
-Example
-  $ superb
-  legendary
+  Example
+    $ superb
+    legendary
 ```
 
 

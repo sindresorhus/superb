@@ -24,6 +24,7 @@
     "words.json"
   ],
   "keywords": [
+    "cli-app",
     "cli",
     "bin",
     "superb",
@@ -36,7 +37,7 @@
     "rand"
   ],
   "dependencies": {
-    "minimist": "^1.1.0",
+    "meow": "^2.1.0",
     "unique-random": "^1.0.0"
   },
   "devDependencies": {
