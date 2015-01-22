@@ -10,7 +10,7 @@
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "sindresorhus.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "meow": "^2.1.0",
-    "unique-random": "^1.0.0"
+    "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
     "ava": "0.0.4"
