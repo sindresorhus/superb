@@ -74,6 +74,7 @@ $ superb --help
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
+- [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
 
 
 ## License
