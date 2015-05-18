@@ -4,9 +4,7 @@
   "description": "Get superb like words",
   "license": "MIT",
   "repository": "sindresorhus/superb",
-  "bin": {
-    "superb": "cli.js"
-  },
+  "bin": "cli.js",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
