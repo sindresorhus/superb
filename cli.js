@@ -16,7 +16,7 @@ var cli = meow({
 		'',
 		'Options',
 		'  --all  Get all the words instead of a random word'
-	].join('\n')
+	]
 });
 
 console.log(cli.flags.all ? superb.words.join('\n') : superb());

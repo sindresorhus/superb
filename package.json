@@ -35,7 +35,7 @@
     "rand"
   ],
   "dependencies": {
-    "meow": "^3.0.0",
+    "meow": "^3.3.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
