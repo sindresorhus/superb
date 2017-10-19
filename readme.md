@@ -10,23 +10,23 @@ The word list itself is just a [JSON file](words.json) and can be used wherever.
 ## Install
 
 ```
-$ npm install --save superb
+$ npm install superb
 ```
 
 
 ## Usage
 
 ```js
-var superb = require('superb');
+const superb = require('superb');
 
 superb();
-//=> legendary
+//=> 'legendary'
 
 superb();
-//=> awesome
+//=> 'awesome'
 
 superb.words;
-// ['superb', 'legendary', ...]
+//=> ['superb', 'legendary', …]
 ```
 
 
@@ -45,6 +45,7 @@ Type: `array`
 All the words.
 
 
+
 ## CLI
 
 ```
@@ -61,7 +62,7 @@ $ superb --help
     $ superb --all
     ace
     amazing
-    ...
+    …
 
   Options
     --all  Get all the words instead of a random word
@@ -80,4 +81,4 @@ $ superb --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
