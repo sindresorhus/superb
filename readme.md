@@ -40,7 +40,7 @@ Random [superb like word](words.json).
 
 ### superb.words
 
-Type: `array`
+Type: `Array`
 
 All the words.
 

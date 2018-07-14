@@ -1,8 +1,8 @@
 import test from 'ava';
-import m from '.';
+import superb from '.';
 
-test(t => {
-	t.true(m().length > 0);
-	t.true(Array.isArray(m.words));
-	t.true(m.words[3].length > 0);
+test('main', t => {
+	t.true(superb().length > 0);
+	t.true(Array.isArray(superb.words));
+	t.true(superb.words[3].length > 0);
 });
