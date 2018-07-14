@@ -45,32 +45,9 @@ Type: `Array`
 All the words.
 
 
-
-## CLI
-
-```
-$ npm install --global superb
-```
-
-```
-$ superb --help
-
-  Examples
-    $ superb
-    legendary
-
-    $ superb --all
-    ace
-    amazing
-    …
-
-  Options
-    --all  Get all the words instead of a random word
-```
-
-
 ## Related
 
+- [superb-cli](https://github.com/sindresorhus/superb-cli) - CLI for this module
 - [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names

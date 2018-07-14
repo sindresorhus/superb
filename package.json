@@ -9,7 +9,6 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "sindresorhus.com"
 	},
-	"bin": "cli.js",
 	"engines": {
 		"node": ">=6"
 	},
@@ -18,13 +17,9 @@
 	},
 	"files": [
 		"index.js",
-		"cli.js",
 		"words.json"
 	],
 	"keywords": [
-		"cli-app",
-		"cli",
-		"bin",
 		"superb",
 		"awesome",
 		"word",
@@ -35,7 +30,6 @@
 		"rand"
 	],
 	"dependencies": {
-		"meow": "^3.7.0",
 		"unique-random-array": "^1.0.0"
 	},
 	"devDependencies": {
