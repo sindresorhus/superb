@@ -19,30 +19,29 @@ $ npm install superb
 ```js
 const superb = require('superb');
 
-superb();
+superb.random();
 //=> 'legendary'
 
-superb();
+superb.random();
 //=> 'awesome'
 
-superb.words;
+superb.all;
 //=> ['superb', 'legendary', …]
 ```
 
-
 ## API
 
-### superb()
-
-Type: `string`
-
-Random [superb like word](words.json).
-
-### superb.words
+### .all
 
 Type: `Array`
 
-All the words.
+All the words in alphabetical order.
+
+### .random()
+
+Type: `Function`
+
+Random word.
 
 
 ## Related

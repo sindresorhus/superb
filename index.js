@@ -2,5 +2,5 @@
 const uniqueRandomArray = require('unique-random-array');
 const words = require('./words.json');
 
-module.exports = uniqueRandomArray(words);
-module.exports.words = words;
+module.exports.all = words;
+module.exports.random = uniqueRandomArray(words);

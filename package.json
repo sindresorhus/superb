@@ -26,8 +26,7 @@
 		"words",
 		"list",
 		"array",
-		"random",
-		"rand"
+		"random"
 	],
 	"dependencies": {
 		"unique-random-array": "^1.0.0"
