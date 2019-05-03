@@ -26,14 +26,14 @@ superb.random();
 //=> 'awesome'
 
 superb.all;
-//=> ['superb', 'legendary', …]
+//=> ['ace', 'amazing', …]
 ```
 
 ## API
 
 ### .all
 
-Type: `Array`
+Type: `string[]`
 
 All the words in alphabetical order.
 
