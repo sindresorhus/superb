@@ -4,7 +4,7 @@
 
 Currently ~100 words. **I'm not accepting more words.**
 
-The word list itself is just a [JSON file](words.json) and can be used wherever.
+The word list itself is just a [JSON file](words.json) and can be used anywhere.
 
 
 ## Install
