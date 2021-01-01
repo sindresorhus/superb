@@ -1,4 +1,4 @@
-# superb [![Build Status](https://travis-ci.org/sindresorhus/superb.svg?branch=master)](https://travis-ci.org/sindresorhus/superb)
+# superb
 
 > Get superb like words
 
