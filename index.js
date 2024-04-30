@@ -1,6 +1,6 @@
-'use strict';
-const uniqueRandomArray = require('unique-random-array');
-const words = require('./words.json');
+import uniqueRandomArray from 'unique-random-array';
+import superbWords from './superb-words.json' with {type: 'json'};
 
-module.exports.all = words;
-module.exports.random = uniqueRandomArray(words);
+export default superbWords;
+
+export const randomSuperbWord = uniqueRandomArray(superbWords);

@@ -1,34 +1,30 @@
-import words = require('./words.json');
+/**
+All the words in alphabetical order.
 
-declare const superb: {
-	/**
-	All the words in alphabetical order.
+@example
+```
+import superbWords from 'superb';
 
-	@example
-	```
-	import superb = require('superb');
+superbWords;
+//=> ['ace', 'amazing', …]
+```
+*/
+declare const superbWords: string[];
 
-	superb.all;
-	//=> ['ace', 'amazing', …]
-	```
-	*/
-	readonly all: Readonly<typeof words>;
+export default superbWords;
 
-	/**
-	Random word.
+/**
+Get a random word.
 
-	@example
-	```
-	import superb = require('superb');
+@example
+```
+import {randomSuperbWord} from 'superb';
 
-	superb.random();
-	//=> 'legendary'
+randomSuperbWord();
+//=> 'legendary'
 
-	superb.random();
-	//=> 'awesome'
-	```
-	*/
-	random(): string;
-};
-
-export = superb;
+randomSuperbWord();
+//=> 'awesome'
+```
+*/
+export function randomSuperbWord(): string;

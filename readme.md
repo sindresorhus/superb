@@ -4,45 +4,46 @@
 
 Currently ~100 words. **I'm not accepting more words.**
 
-The word list itself is just a [JSON file](words.json) and can be used anywhere.
-
+The word list itself is just a [JSON file](superb-words.json) and can be used anywhere.
 
 ## Install
 
+```sh
+npm install superb
 ```
-$ npm install superb
-```
-
 
 ## Usage
 
 ```js
-const superb = require('superb');
+import superbWords from 'superb';
 
-superb.random();
-//=> 'legendary'
-
-superb.random();
-//=> 'awesome'
-
-superb.all;
+superbWords;
 //=> ['ace', 'amazing', …]
 ```
 
 ## API
 
-### .all
+### superbWords
 
 Type: `string[]`
 
 All the words in alphabetical order.
 
-### .random()
+### randomSuperbWord
 
 Type: `Function`
 
-Random word.
+Get a random word.
 
+```js
+import {randomSuperbWord} from 'superb';
+
+randomSuperbWord();
+//=> 'legendary'
+
+randomSuperbWord();
+//=> 'awesome'
+```
 
 ## Related
 
@@ -53,8 +54,3 @@ Random word.
 - [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
