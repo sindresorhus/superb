@@ -29,7 +29,7 @@ Type: `string[]`
 
 All the words in alphabetical order.
 
-### randomSuperbWord
+### randomSuperbWord()
 
 Type: `Function`
 
