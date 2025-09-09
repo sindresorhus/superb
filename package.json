@@ -1,7 +1,7 @@
 {
 	"name": "superb",
 	"version": "5.0.0",
-	"description": "Get superb like words",
+	"description": "Get superb like adjectives",
 	"license": "MIT",
 	"repository": "sindresorhus/superb",
 	"funding": "https://github.com/sponsors/sindresorhus",

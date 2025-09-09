@@ -1,5 +1,5 @@
 /**
-All the words in alphabetical order.
+All the adjectives in alphabetical order.
 
 @example
 ```
@@ -14,7 +14,7 @@ declare const superbWords: string[];
 export default superbWords;
 
 /**
-Get a random word.
+Get a random adjective.
 
 @example
 ```

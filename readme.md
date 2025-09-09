@@ -1,8 +1,8 @@
 # superb
 
-> Get superb like words
+> Get superb like adjectives
 
-Currently ~100 words. **I'm not accepting more words.**
+Currently ~100 adjectives. **I'm not accepting more words.**
 
 The word list itself is just a [JSON file](superb-words.json) and can be used anywhere.
 
@@ -27,13 +27,13 @@ superbWords;
 
 Type: `string[]`
 
-All the words in alphabetical order.
+All the adjectives in alphabetical order.
 
 ### randomSuperbWord()
 
 Type: `Function`
 
-Get a random word.
+Get a random adjective.
 
 ```js
 import {randomSuperbWord} from 'superb';
